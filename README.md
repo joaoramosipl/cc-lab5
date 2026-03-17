@@ -43,7 +43,7 @@ Now that your containers can be built, you must orchestrate the ecosystem and de
 
 Start with the `docker-compose.yml` file that is present in the root directory. You must define **three** more services along the API Gateway (`jc21/nginx-proxy-manager:latest` image): the frontend, the API and the Redis cache.
 
-**Tip:** use ```build: ./frontend and build: ./api``` to specify Dockerfiles' locations.
+**Tip:** use ```build: ./frontend``` and ```build: ./api``` to specify Dockerfiles' locations.
 
 **Focus on Docker Networking:**
 In a Compose environment, Docker automatically creates a custom bridge network for your stack. This provides internal DNS resolution. 
