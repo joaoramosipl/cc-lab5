@@ -25,7 +25,7 @@ You should see two directories:
 ---
 
 ### Phase 2: The Containerization Challenge
-Your first task is to write the `Dockerfile`s for the provided source code.
+Your first task is to write the `Dockerfile's` for the provided source code.
 
 **Task 2.1: The Frontend Container**
 Inside the `/frontend` directory, create a `Dockerfile` that uses an `nginx:alpine` base image to serve the `index.html` file.
