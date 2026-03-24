@@ -34,7 +34,7 @@ Update your `docker-compose.yml` to include the following **five** services:
    * Set the required Postgres environment variables for user, password, and database name.
    * Mount a volume to `/var/lib/postgresql/data`.
 5. **`minio-storage`**:
-   * Use the `minio/minio` image.
+   * Use the `minio/minio:RELEASE.2025-01-20T14-49-07Z` image.
    * Set `MINIO_ROOT_USER` and `MINIO_ROOT_PASSWORD`.
    * Start command: `server /data --console-address ":9001"`
    * Mount a volume to `/data`.
